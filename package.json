@@ -1,0 +1,23 @@
+{
+  "name": "newsplash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.3",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0",
+    "session": "^0.1.0"
+  }
+}

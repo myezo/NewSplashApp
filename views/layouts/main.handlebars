@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Splash</title>
+	</head>
+	<body>
+		{{#if logged_in}}
+			<a href="/users/sign-out" id="sign-out">Sign Out ({{this.username}})</a>
+		{{else}}
+			<a href="/users/sign-in">Sign In</a>
+			<a href="/users/new">Register</a>
+		{{/if}}
+		{{{body}}}
+	</body>
+</html>
